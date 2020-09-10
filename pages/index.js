@@ -6,48 +6,44 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Planning Alerts</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <img src="/planning-alerts-logo.svg" alt="Planning Alerts Logo" />
         <h1 className={styles.title}>
-          Welcome to Planning Alerts!
+          Welcome to Planning Alerts
         </h1>
 
         <p className={styles.description}>
-          Very, very{' '}
-          <code className={styles.code}>WIP</code>
-          <Link href="/contact"><a>Contact</a></Link>
+          Know your neighbourhood
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://play.google.com/store/apps/details?id=com.kanec.planningalerts" className={styles.storeBadge}>
+            <img src="/google-play-badge.png" alt="Get it on Google Play"/>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://apps.apple.com/gb/app/planning-alerts/id1499203549" className={styles.storeBadge}>
+            <img src="/app-store-badge.svg" alt="Download on the App Store" className={styles.appleBadge}/>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://github.com/vonkanehoffen/planning-alerts/issues"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Support &rarr;</h3>
+            <p>Get help with any app issues.</p>
+          </a>
+
+          <a
+            href="https://kanec.uk/"
+            className={styles.card}
+          >
+            <h3>Contact &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Get in touch with the developer.
             </p>
           </a>
         </div>

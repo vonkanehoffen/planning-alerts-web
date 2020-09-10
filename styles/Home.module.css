@@ -93,6 +93,22 @@
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
+.storeBadge {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.storeBadge img {
+  width: 100%;
+}
+
+/** TODO: Properly match sizes */
+.appleBadge {
+  width: 80% !important;
+}
+
 .card:hover,
 .card:focus,
 .card:active {
