@@ -11,6 +11,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <img src="/planning-alerts-logo.svg" alt="Planning Alerts Logo" />
         <h1 className={styles.title}>
           Welcome to Planning Alerts!
         </h1>
