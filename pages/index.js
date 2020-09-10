@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <p className={styles.description}>
           Very, very{' '}
           <code className={styles.code}>WIP</code>
+          <Link href="/contact"><a>Contact</a></Link>
         </p>
 
         <div className={styles.grid}>
