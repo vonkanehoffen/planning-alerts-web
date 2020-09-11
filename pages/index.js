@@ -11,7 +11,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <img src="/planning-alerts-logo.svg" alt="Planning Alerts Logo" />
+        <div className={styles.logo}>
+          <img src="/planning-alerts-logo.svg" alt="Planning Alerts Logo" />
+        </div>
         <h1 className={styles.title}>
           Welcome to Planning Alerts
         </h1>
@@ -22,11 +24,11 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://play.google.com/store/apps/details?id=com.kanec.planningalerts" className={styles.storeBadge}>
-            <img src="/google-play-badge.png" alt="Get it on Google Play"/>
+            <img src="/play-store-badge.png" alt="Get it on Google Play"/>
           </a>
 
           <a href="https://apps.apple.com/gb/app/planning-alerts/id1499203549" className={styles.storeBadge}>
-            <img src="/app-store-badge.svg" alt="Download on the App Store" className={styles.appleBadge}/>
+            <img src="/app-store-badge.png" alt="Download on the App Store" />
           </a>
 
           <a
